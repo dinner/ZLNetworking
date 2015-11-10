@@ -1,0 +1,2 @@
+自己写的一个网络连接工具，使用nsurlconnection，并使用block回调网络请求结果。大致原理是创建网络连接对象，并将回调操作保存在库的成员函数block中
+使用nsurlconnection delegate，请求成功后调用回调。现阶段功能简单，后面会有更多功能补充。
